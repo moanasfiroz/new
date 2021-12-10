@@ -1,0 +1,153 @@
+.dropdown{
+    margin-left: 28%;
+    margin-top: 15%;
+    width: 10%;
+    
+    
+
+}
+html{
+    font-size: 62.5%;
+}
+nav{
+    margin-top: 300px;
+}
+
+.dropdown ul{
+    font-size: 3rem;
+    width: 50rem;
+    border-radius: 2rem;
+}
+.dropdown button{
+    width: 50rem;
+    font-size: 3rem;
+    border-radius: 3rem;
+    font-weight: bold;
+    background-color: black;
+
+}
+.display-5{
+    text-align: center;
+    margin-top: -9rem;
+    
+    COLOR: WHITE;
+}
+span .fa{
+    display: none;
+}
+.mm{
+    margin-top: 2rem;
+    font-weight: bold;
+    margin-left: 5rem;
+}
+.role{
+    margin-top: 18%;
+    margin-left: 75%;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://oxfordclinic.com.au/wp-content/uploads/2019/03/Depositphotos_123444512_l-2015.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.logo{
+    margin-top: -5rem;
+    
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: overline;
+
+
+}
+nav{
+    margin-top: -60rem;
+
+    background-color: black; width: 7rem; height: 72rem; font-size: 25px;
+}
+nav .fa{font-size: 40px;}
+nav h1 a{
+    margin-top: 2rem;
+}
+i{
+    color: white;
+    margin-top: 5rem;
+    font-size: larger;
+}
+i:hover{
+    color: yellow;
+
+}
+.row1{
+    background-color: black;
+}
+.home nav{margin-top: -600px; margin-left: -130px;}
+.home nav h1 a{margin-left: 17px; font-size: 25px;}
+ .home.fa{font-size: 25px;}
+ .home{
+     height: 300px;
+ }
+@media screen and (max-width: 900px){
+    html{
+        font-size: 55%;
+        width: auto;
+        height: auto;
+    }
+    .logo{
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    html{
+        font-size: 45%;
+        width: auto;
+        height: auto;
+    }
+    .logo{
+        margin-top: 250px;
+    }
+}
+@media screen and (max-width: 500px){
+    html{
+        font-size: 45%;
+        width: auto;
+        height: auto;
+
+    }
+    
+    
+    
+    
+    .logo{
+        margin-top: 250px;
+    }
+    .role{
+        display: none;
+        
+    }
+    .dropdown{
+        margin-left: 60px;
+        margin-top: 200px;
+    }
+    .bar{
+        margin-top: 200px;
+    }
+    h2{
+        display: none;
+    }
+    span .fa{
+        display: block;
+        font-size: 30px;
+        margin-top: -20px;
+        
+        
+    }
+    .home{
+        display: none;
+    }
+    .dropdown{
+        margin-left: 25px;
+    }
+}

@@ -1,0 +1,53 @@
+  <html>
+  <style>
+    html{font-size: 62.5%;}
+  form{background-image: url('https://ak.picdn.net/shutterstock/videos/24223834/thumb/1.jpg')}
+  #aad{width: 150px; font-size: 25px;}
+  #add{width: 300px; font-size: 25px; font-family: sans-serif; margin: 10px; border-radius: 30px;}
+  input{margin-left: 20px;}
+  @media screen and (max-width: 500px){
+    html{
+        font-size: 35%;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+
+    }
+    
+    .home form{
+      width: 200px;
+      height: 0;
+    }
+    input{
+      text-align: center;
+     
+    }
+    #add{
+      text-align: center;
+      margin-right: 30rem;
+    }
+    #aad{
+      margin-right: 20rem;
+    }
+  }
+  </style>
+  
+  <body style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://halakwt.com/assets/images/services/hospital-appointment.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+  <div class="home">
+    <center><form style="border: 5px solid black; width: 600px; text-align: center; font-size: 25px; margin: 10px;" action="attach.php" method="post" height="300px" width="600px">
+
+<input type="text" name="name" placeholder="Name" required id="add"><br><br>
+ <input type="email"  name="email" placeholder="Email" required id="add"><br><br>
+ 
+ <input type="number" name="age" placeholder="Age" id="add"><br><br>
+ <input type="number" name="contact" placeholder="contact" id="add"><br><br>
+ <input type="text" name="doctor" placeholder="Docter Name" required id="add"><br><Br>
+ <input type="text"  placeholder="Department" name="Department" id="add"><br><br>
+ <input type="text" name="address" placeholder="Address"  id="add"><br><Br>
+ <input type="date" name="Date"   id="add"><br><Br>
+
+<input type="submit" value="Book" name="submit" style="background-color: blue; color: white;" id="aad"> 
+<input type="reset" value="reset" id="aad"><br><br>
+</form></center></div>
+</body>
+</html>
